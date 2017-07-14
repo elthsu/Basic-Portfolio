@@ -212,6 +212,51 @@ header {
 
 }
 
+.portbanner {
+
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	display: inline;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px; 
+    height: 50px;
+    width: 189px;
+    background-color: #4aaaa5;
+    position: absolute;
+    color: #dddddd;
+    z-index: 2;
+}
+
+.banner1 {
+
+	top: 142px;
+    left: 42px;
+}
+
+.banner2 {
+
+	top: 142px;
+    right: 46px;
+}
+
+.banner3 {
+
+	top: 366px;
+    left: 42px;
+}
+
+.banner4 {
+
+	top: 366px;
+    right: 46px;
+}
+
+.banner5 {
+
+	top: 594px;
+    left: 42px;
+}
+
 #right {
 	
 	position: absolute;
