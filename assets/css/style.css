@@ -3,15 +3,36 @@
 
 }
 
-hr {
+p {
 
-	color:red;
+	line-height: 150%;
 }
 
 body {
 
-	background-image: url(../images/bg.png);
+	background-image: url(../images/concrete_seamless.png);
+	height: 100%;
+}
+
+.img {
+
+	float: left;
+	margin: 8px 20px 2px 0;
+	width: 35%;
 	
+
+}
+
+
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
 }
 
 header {
@@ -19,6 +40,7 @@ header {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	position: relative;
 	margin: auto;
+	width: 100%;
 	height: 100px;
 	background-color: #ffffff;
 	overflow: hidden;
@@ -37,6 +59,7 @@ header {
 #name {
 	
 	float: left;
+	font-weight: bold;
 	font-size: xx-large;
 	text-align: center;
 	color: #ffffff;
@@ -68,22 +91,128 @@ header {
 #short2,
 #short3 {
 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	display: inline-block;
     margin: 35px 0;
     text-align: center;
+    color: #777777;
     width: 68px;
     height: 16px;
 }
 
 #main {
 
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	position: relative;
-	margin: auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 0;
+	margin: 30px auto;
 	width: 960px;
-	background-color: #ffffff;
-	z-index: 3;
+	
 
 }
+
+#left,
+#right {
+
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+}
+
+#left {
+
+	position: relative;
+	padding: 30px 50px;
+	width: 650px;
+	height: 658px;
+	
+
+	
+}
+
+#left h1 {
+
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: xx-large;
+	font-weight: bold;
+	color: #4aaaa5;
+	height: 50px;
+	border-bottom: 4px solid #dddddd;
+
+}
+
+.content {
+
+	display: inline;
+	float: left;
+	width: 550px;
+	margin: 0;
+	padding: 0;
+	color: #777777;
+	position: absolute;
+	top: 100px;
+
+}
+
+#right {
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 30px;
+	width: 270px;
+	height: 200px;
+	
+}
+
+#right h1 {
+
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	color: #4aaaa5;
+	height: 40px;
+	border-bottom: 2px solid #dddddd;
+
+}
+
+.rcontent {
+
+	display: inline;
+	float: left;
+	width: 270px;
+	margin: 0;
+	padding: 0;
+	color: #777777;
+	position: absolute;
+	top: 100px;
+}
+
+.rimg {
+	
+	margin: 0 3px 0 0;
+	width: 65px;
+}
+
+.rrimg {
+	
+	margin: 3px 0;
+	width: 58px;
+}
+
+
+
+footer {
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	padding: 50px;
+	color: #777777;
+	width: 100%;
+	height: 100px;
+	background-color: #666666;
+
+
+}
+
 
 
